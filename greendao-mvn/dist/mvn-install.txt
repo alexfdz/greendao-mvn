@@ -1,3 +1,0 @@
-mvn install:install-file -Dfile=greenDAO-generator.jar -DgroupId=de.greenrobot -DartifactId=greenDAO-generator -Dversion=1.1.2 -Dpackaging=jar -Djavadoc=greenDAO-generator-javadoc.jar
-
-mvn install:install-file -Dfile=greenDAO.jar -DgroupId=de.greenrobot -DartifactId=greenDAO -Dversion=1.1.2 -Dpackaging=jar
