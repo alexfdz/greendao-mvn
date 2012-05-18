@@ -1,4 +1,4 @@
-greendao-mvn
+greenDAO Maven Integration
 ============
 
 GreenDAO Maven integration
@@ -8,8 +8,10 @@ greenDAO is a light & fast ORM solution for Android that maps objects to SQLite 
 ### Contents
 
 * greendao-example-daogenerator: Maven project as a container of the dao and dao-generator modules
-** greendao-example-generator: Defines the schema and launchs the source generation
-** greendao-example-dao: Target of the source generation to execute the artifact generation
+
+ > greendao-example-generator: Defines the schema and launchs the source generation
+ 
+ > greendao-example-dao: Target of the source generation to execute the artifact generation
 
 * greendao-example: Android-maven project (uses the greendao-example-dao artifact)
 
