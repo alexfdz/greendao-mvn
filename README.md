@@ -21,7 +21,34 @@ For more information about greenDAO see http://greendao-orm.com .
 ### Build
 
 * Go to greendao-example-daogenerator/dist and execute the maven-install.txt defined commands to install greenDAO dependencies in your local repository.
+
+
 * Execute the maven install phase in greendao-example-daogenerator to generate the ORM artifact
-** Generation of greendao-example-generator artifact
-** Generation of greendao-example-dao artifact (the ORM API)
+
+```
+$ cd greendao-example-daogenerator
+$ mvn clean install 
+```
+
+ >  Generation of greendao-example-generator artifact
+ 
+ >  greendao-example-daogenerator/greendao-example-generator/target/greendao-example-generator-[version].jar
+
+ >  Generation of greendao-example-dao artifact (the ORM API)
+ 
+ >  greendao-example-daogenerator/greendao-example-dao/target/greendao-example-dao-[version].jar
+
+ 
+
+ 
 * Execute the maven install phase in greendao-example to generate the APK artifact
+
+```
+$ greendao-example
+$ mvn clean install 
+```
+
+ > Generation of greendao-example APK artifact
+ 
+ > greendao-example/target/greendao-mvn-example-[version].apk
+
