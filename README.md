@@ -3,6 +3,10 @@ greenDAO Maven Integration
 
 greenDAO is a light & fast ORM solution for Android that maps objects to SQLite databases. Being highly optimized for Android, greenDAO offers great performance and consumes minimal memory.
 
+Example based in greenDAO DAOExample (https://github.com/greenrobot/greenDAO).
+
+For more information about greenDAO see http://greendao-orm.com .
+
 ### Contents
 
 * greendao-example-daogenerator: Maven project as a container of the dao and dao-generator modules
